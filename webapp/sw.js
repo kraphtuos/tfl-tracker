@@ -15,7 +15,7 @@ const PRECACHE_URLS = [
     './icons/icon-512x512.png',
 ];
 
-// Trunk puts a content hash in built asset names (e.g. tfl_tracker-1a2b3c4d_bg.wasm),
+// Trunk puts a content hash in built asset names (e.g. tfl-tracker-1a2b3c4d_bg.wasm),
 // so a cached copy never goes stale. Captures the name without the hash.
 const HASHED_ASSET = /^(.*)-[0-9a-f]{8,}((?:_bg)?\.(?:js|wasm|css))$/;
 

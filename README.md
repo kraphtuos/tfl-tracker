@@ -42,14 +42,14 @@ trunk build --release
 ```
 
 To serve from a sub-path, pass it with `--public-url`, e.g.
-`trunk build --release --public-url /tfl_tracker/`.
+`trunk build --release --public-url /tfl-tracker/`.
 
 ### Checks
 
 ```bash
 cargo fmt --all --check
 cargo clippy --workspace --all-targets -- -D warnings
-cargo clippy -p tfl_tracker --target wasm32-unknown-unknown -- -D warnings
+cargo clippy -p tfl-tracker --target wasm32-unknown-unknown -- -D warnings
 cargo test --workspace
 ```
 
